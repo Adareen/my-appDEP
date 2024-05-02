@@ -1,0 +1,29 @@
+<h2 class="mt-4">Seleziona cosa noleggiare!</h2>
+
+<div class="row">
+  <div class="col-4 mt-5">
+    <div class="card" style="width: 18rem">
+      <ul class="list-group list-group-flush">
+        <li [routerLink]="['/noleggio/auto']" class="list-group-item">Macchina</li>
+        <li [routerLink]="['/noleggio/barche']" class="list-group-item">Barche</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-6 d-flex justify-content-between" *ngIf="barchePrenotate.length!=0">
+    <h2  class="mt-4 ms-5">Riepilogo Ordine:</h2>
+    <ul class="mt-4 ms-5" >
+      <li *ngFor="let barca of barchePrenotate">{{barca.marca}} - {{barca.modello}}- {{barca.prezzo}}€</li>
+      <li *ngFor="let auto of autoPrenotate">{{auto.marca}} - {{auto.modello}}- {{auto.prezzo}}€</li>
+
+      <!-- da duplicare per le auto -->
+    </ul>
+
+  </div>
+
+  
+
+  <div class="col-12 mt-5">
+    <router-outlet></router-outlet>
+  </div>
+</div>

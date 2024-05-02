@@ -1,0 +1,104 @@
+{
+  "auto": [
+    {
+      "id": "0",
+      "marca": "peugeot",
+      "modello": "208",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "1",
+      "marca": "volskwagen",
+      "modello": "scirocco",
+      "disponibilita": false,
+      "prezzo": 50
+    },
+    {
+      "id": "2",
+      "marca": "fiat",
+      "modello": "punto",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "3",
+      "marca": "ford",
+      "modello": "puma",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "f6c0",
+      "marca": "alfa rumeno",
+      "modello": "rubata",
+      "disponibilita": true,
+      "prezzo": 9999
+    }
+  ],
+  "barca": [
+    {
+      "id": "0",
+      "marca": "barchettabrrr",
+      "modello": "100",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "1",
+      "marca": "poller",
+      "modello": "wow",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "2",
+      "marca": "alsame",
+      "modello": "salame",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "3",
+      "marca": "niaste",
+      "modello": "aster",
+      "disponibilita": true,
+      "prezzo": 50
+    },
+    {
+      "id": "4",
+      "marca": "asd",
+      "modello": "bello",
+      "disponibilita": true,
+      "prezzo": 232
+    },
+    {
+      "id": "5",
+      "marca": "addadsad",
+      "modello": "ss",
+      "disponibilita": true,
+      "prezzo": 2
+    },
+    {
+      "id": "32e9",
+      "marca": "asd",
+      "modello": "qweqwe",
+      "disponibilita": true,
+      "prezzo": 2
+    },
+    {
+      "id": "0235",
+      "marca": "asd",
+      "modello": "ss",
+      "disponibilita": true,
+      "prezzo": 23
+    },
+    {
+      "id": "6e1d",
+      "marca": "asd",
+      "modello": "ss",
+      "disponibilita": true,
+      "prezzo": 23
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div class="row">
+
+  <div class="card ms-3" style="width: 18rem;"  *ngFor="let auto of listaAuto; index as indice">
+      <img
+        class="card-img-top mt-2"
+        src="https://www.carlaservice.it/wp-content/uploads/2020/06/noleggio-breve-termine-lecce.jpeg"
+        alt=""
+      />
+      
+      <h4 class="card-title mt-2">{{ auto.marca }}</h4>
+        <p class="card-text">{{ auto.modello }}</p>
+        <p class="card-text">disponibilità: {{ auto.disponibilita }}</p>
+        <div class="btncontainer">
+          <button *ngIf="auto.disponibilita; else lol"    (click)="toggleDisp(indice)"   type="submit" class="btn btn-primary mb-2">Noleggia</button>
+          
+          <ng-template #lol> 
+            <button  class="btn btn-danger disabled mb-2" > LOL GET REKTED 2 LATE</button>
+          </ng-template>
+
+          
+
+       
+        
+          
+            
+        </div>
+    </div>
+
+</div>

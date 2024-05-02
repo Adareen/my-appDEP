@@ -1,0 +1,75 @@
+<div class="row">
+    <div class="col-3 mt-3">
+        <div class="mb-3">
+            
+            
+            
+            
+            <div class="mb-3">
+                <label for="" class="form-label">Tipo</label>
+                <select
+                (change)="onSelezioneCambiata($event)"
+                class="form-select form-select-lg"
+                name=""
+                id=""
+                >
+                <option selected>Scegli...</option>
+                <option value="barca">Barca</option>
+                <option value="auto">Auto</option>
+                
+            </select>
+        </div>
+        
+        
+        <label for="" class="form-label">Marca</label>
+        <input
+
+            [(ngModel)]="marcaItem"
+            type="text"
+            class="form-control"
+            name=""
+            id=""
+            aria-describedby="helpId"
+            placeholder=""
+        />
+            <label for="" class="form-label mt-3">Modello</label>
+            <input
+            [(ngModel)]="modelloItem"
+                type="text"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="helpId"
+                placeholder=""
+            />
+            <label for="" class="form-label mt-3">Prezzo</label>
+            <input
+        
+            [(ngModel)]="prezzoItem"
+                type="text"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="helpId"
+                placeholder=""
+            />
+            <label for="" class="form-label mt-3">Disponibilita</label>
+            <input
+
+            [(ngModel)]="disponibilitaItem"
+                type="text"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="helpId"
+                placeholder=""
+            />
+        
+        
+           <button type="submit" class="btn btn-primary mt-2" (click)="inviaRichiesta()">Inserisci</button>
+        
+        
+        
+        </div>
+    </div>
+</div>
